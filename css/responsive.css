@@ -161,6 +161,13 @@ input, textarea {
 }
 
 
+@media only screen and (max-height: 800px) {
+
+	/* #main-nav {background-color: black;} */
+	#bottom-header ul{display: none;}
+
+}
+
 /* Safari 6.1+ (9.0 is the latest version of Safari at this time) */
 
 @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
